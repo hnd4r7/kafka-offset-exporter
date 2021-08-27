@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	log "github.com/Sirupsen/logrus"
 	"github.com/prometheus/client_golang/prometheus"
+	log "github.com/sirupsen/logrus"
 )
 
 func init() {
